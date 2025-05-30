@@ -102,6 +102,28 @@ Learn more about [Transports](https://modelcontextprotocol.io/docs/concepts/tran
 
 ## Using the MCP Server
 
+#### stdio Server Setup
+```json
+{
+    "mcpServers": {
+        "example-server": {
+            "command": "node",
+            "args": [ "dist/server.js" ]
+         }
+    }
+}
+```
+
+#### SSE Server Setup
+```json
+{
+    "mcpServers": {
+        "example-server": {
+            "url": "https://example-server.com/sse"
+         }
+    }
+}
+```
 
 ## Contributing
 
