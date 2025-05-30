@@ -16,10 +16,16 @@ A TypeScript template repository for creating [Model Context Protocol (MCP)](htt
 
 ## Getting Started
 
-1. **Clone the template**
+1. **Create a repo from this template**
+
+   Click **Use this template** > **Create a new repository**
+
+   ![screenshot](https://i.postimg.cc/vZpK09SS/Screenshot-2025-05-31-005810.png)
+
+1. **Clone your repository**
    ```bash
-   git clone https://github.com/iamtraction/mcp-server.git my-mcp-server
-   cd my-mcp-server
+   git clone https://github.com/iamtraction/node-mcp-server.git
+   cd node-mcp-server
    ```
 
 2. **Install dependencies**
